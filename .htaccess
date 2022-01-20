@@ -1,0 +1,15 @@
+Options -Indexes
+
+RewriteEngine On
+
+RewriteRule ^/?$ ./sign-in.php [NC]
+RewriteRule ^index/?$ ./index.php [NC]
+RewriteRule ^login/?$ ./sign-in.php [NC]
+RewriteRule ^create/?$ ./register.php [NC]
+RewriteRule ^edit/?$ ./edit.php [NC]
+RewriteRule ^entrar/?$ ./app/Controllers/login.php [NC]
+RewriteRule ^editar/?$ ./app/Controllers/edit.php [NC]
+RewriteRule ^sair/?$ ./app/Controllers/sair.php [NC]
+RewriteRule ^delete/?$ ./app/Controllers/delete.php [NC]
+RewriteRule ^insert/?$ ./app/Controllers/insert.php [NC]
+
